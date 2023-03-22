@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<meta name="description" content="Solución a un challenge nivel Junior de frontendmentor.io usando HTML, CSS3 y JavaScript"/>
+	<meta name="keywords" content="FrontendMentor.io, Challenges ,HTML & CSS, JavaScript"/>
+	<meta name="author" content="José Alvarado" />
+	<meta name="copyright" content="Propietario del copyright" />
+	<meta http-equiv="cache-control" content="no-cache"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+	<header class="hero">
+		<section class="hero__container container">
+			<nav class="hero__nav">
+				<figure class="nav__figure">
+					<img class="nav__img" src="./assets/images/logo.svg" alt="Fylo logo"/>
+				</figure>
+
+				<ul class="nav__links">
+					<li class="nav__item">
+						<a class="nav__link" href="#">Features</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Team</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="#">Sign In</a>
+					</li>
+				</ul>
+			</nav>
+
+			<article class="hero__content">
+				<article class="content__texts">
+					<h1 class="hero__title">All your files in one secure location, accessible anywhere.</h1>
+					<p class="hero__paragraph">
+						Fylo stores your most important files in one secure location.
+					  Access them wherever you need, share and collaborate with friends,
+					  family, and co-workers.
+					</p>
+					<form class="form" id="form">
+						<div class="hidden">
+							<input type="email" class="hero__input" name="email" id="email" placeholder="Enter your email"/>
+							<p class="message__error">Please check your email </p>
+						</div>
+						<input type="submit" class="hero__btn" value="Get Started"/>
+					</form>
+				</article>
+
+				<figure class="content__figure">
+					<img class="content__img" src="./assets/images/illustration-1.svg" alt="hero imagen"/>
+				</figure>
+			</article>
+		</section>
+	</header>
+
+	<main class="main">
+
+
+		<section class="work">
+			<article class="work__container container">
+				<article class="work__texts">
+					<h2 class="work__title">Stay productive, wherever you are</h2>
+					<p class="work__paragraph">
+						Never let location be an issue when accessing your files. Fylo has you
+	  				covered for all of your file storage needs.
+					</p>
+					<p class="work__paragraph">
+						Securely share files and folders with friends, family and colleagues for
+	  				live collaboration. No email attachments required!
+					</p>
+					<a href="#" class="work__cta">
+						See how Fylo works
+						<img class="cta__img" src="./assets/images/icon-arrow.svg" alt="icon arrow"/>
+					</a>
+
+					<div class="work__card">
+						<img class="card__quotes" src="./assets/images/icon-quotes.svg" alt="quotes icon"/>
+						<p class="card__paragraph">
+							Fylo has improved our team productivity by an order of magnitude. Since
+							 making the switch our team has become a well-oiled collaboration machine.
+						</p>
+						<div class="card__person">
+							<img class="card__img" src="./assets/images/avatar-testimonial.jpg" alt="avatar"/>
+							<div class="card__texts">
+								<h3 class="card__name">Kyle Burton</h3>
+								<p class="card__founder">Founder & CEO, Huddle</p>
+							</div>
+						</div>
+					</div>
+					<div class="bg-shape"></div>
+				</article>
+
+				<figure class="work__figure">
+					<img class="work__img" src="./assets/images/illustration-2.svg" alt="work imagen"/>
+				</figure>
+
+			</article>
+		</section>
+
+		<section class="access">
+			<article class="access__container container">
+				<article class="access__texts">
+					<h2 class="access__title">Get early access today</h2>
+					<p class="access__paragraph">
+						 It only takes a minute to sign up and our free starter tier is extremely generous.
+	  				 If you have any questions, our support team would be happy to help you.
+					</p>
+				</article>
+				<form class="form__access" id="form__access">
+						<div class="hidden">
+							<input type="email" class="access__input" name="email" id="email" placeholder="email@example.com"/>
+							<p class="message__error">Please check your email </p>
+						</div>
+
+					<input type="submit" class="access__btn" value="Get Started For Free"/>
+				</form>
+			</article>
+		</section>
+	</main>
+
+
+	<footer class="footer">
+		<section class="footer__container container">
+
+			<article class="footer_contact">
+				<figure class="footer__figure">
+					<img class="footer__img" src="./assets/images/logo-footer.svg" alt="Fylo logo footer"/>
+				</figure>
+				<div class="footer__phone d-flex">
+					<img class="phone__img" src="./assets/images/icon-phone.svg" alt="phone icon"/>
+					<p class="phone__text">Phone: +1-543-123-4567</p>
+				</div>
+				<div class="footer__email d-flex">
+					<img class="email__img" src="./assets/images/icon-email.svg" alt="email icon"/>
+					<p class="email__text">example@fylo.com</p>
+				</div>
+			</article>
+
+			<article class="footer__links">
+				<ul class="links__items links__items--1">
+					<li class="links__item">
+						<a class="links_link" href="#">About Us</a>
+					</li>
+					<li class="links__item">
+						<a class="links_link" href="#">Jobs</a>
+					</li>
+					<li class="links__item">
+						<a class="links_link" href="#">Press</a>
+					</li>
+					<li class="links__item">
+						<a class="links_link" href="#">Blog</a>
+					</li>
+				</ul>
+
+				<ul class="links__items links__items--2">
+					<li class="links__item">
+						<a class="links_link" href="#">Contact Us</a>
+					</li>
+					<li class="links__item">
+						<a class="links_link" href="#">Terms</a>
+					</li>
+					<li class="links__item">
+						<a class="links_link" href="#">Privacy</a>
+					</li>
+				</ul>
+
+				<div class="links__socials d-flex">
+					<img class="link__social" src="./assets/images/facebook.svg" alt="facebook icon"/>
+					<img class="link__social" src="./assets/images/twitter.svg" alt="twitter icon"/>
+					<img class="link__social" src="./assets/images/instagram.svg" alt="instagram icon"/>
+				</div>
+			</article>
+
+		</section>
+	</footer>
+
+	<script src="./js/app.js"></script>
+</body>
+</html>
