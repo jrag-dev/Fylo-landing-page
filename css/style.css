@@ -266,7 +266,8 @@ img {
 		border-radius: 8px;
 		box-shadow: 0 0 10px 10px rgba(0, 0, 0, .03);
 		margin: 1rem;
-		padding: 32px;
+		padding: 16px;
+		line-height: 1.6;
 		font-family: 'Open Sans', sans-serif;
 
 		display: grid;
@@ -334,6 +335,8 @@ img {
 
 .access__paragraph {
 	margin-bottom: 1rem;
+	font-size: 16px;
+	line-height: 1.6;
 }
 
 .form__access  {
@@ -502,7 +505,7 @@ img {
 		/* ----------- Hero Section ----------- */
 
 		.hero {
-				--padding-container: 0 0 80px 0;
+				--padding-container: 0;
 		}
 
 		.hero__container {
@@ -546,11 +549,11 @@ img {
 		}
 
 		.hero__title {
-				font-size: 2.5rem;
+				font-size: 2.3rem;
 		}
 
 		.hero__paragraph {
-				font-size: 19px;
+				font-size: 17px;
 		}
 
 		.form {
@@ -588,7 +591,7 @@ img {
 		/* ----------- work Section ----------- */
 
 		.work {
-				--padding-container: 100px 0 80px 0;
+				--padding-container: 100px 0 100px 0;
 		}
 
 		.work__container {
@@ -611,7 +614,7 @@ img {
 
 		.work__title {
 				text-align: center;
-				font-size: 2.4rem;
+				font-size: 2rem;
 		}
 
 		.work__paragraph {
@@ -637,7 +640,7 @@ img {
 		/* ----------- access Section ------------ */
 
 		.access {
-				--padding-container: 50px 0 50px 0;
+				--padding-container: 80px 0 80px 0;
 		}
 
 		.access__container {
@@ -649,7 +652,7 @@ img {
 		.access__texts {
 				place-items: start;
 				text-align: start;
-				flex-basis: 50%;
+				flex-basis: 55%;
 		}
 
 		.access__title {
@@ -726,7 +729,7 @@ img {
 		/* ----------- footer Section ------------ */
 
 		.footer {
-				--padding-container: 80px 16px 80px 16px;
+				--padding-container: 100px 16px 100px 16px;
 		}
 
 		.footer__container {
